@@ -1,0 +1,47 @@
+
+/*-----------------*/
+
+.Card {
+   
+    background: linear-gradient(to right,#85c9f6,#7b8bce );
+    border-radius: 20px;
+    padding: 15px;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    margin-bottom:15px;
+    align-items: center;
+    box-shadow: 2px 2px 20px  #b2b6da;
+  }
+  @media (min-width: 835px) {
+    .Card {
+      background-color: #85c9f6;
+      background: linear-gradient(to right,#85c9f6,#85c9f6 );
+      margin-left: 9px;
+      margin-right: 9px;
+      
+    }
+
+  }
+  .Card h1,h2 {
+    margin-left:5px;
+    color: #1b170a;
+  }
+  h4, h3 {
+    
+    margin: 5px;
+  }
+  .tem {
+    display:flex;
+    justify-content: center;
+  }
+ 
+  .tem img {
+      width: 150px;
+      height: 150px;
+      border-radius: 100px;
+      position:relative;
+      top: -20px;
+      object-fit: cover;
+  }
+  

@@ -1,0 +1,59 @@
+span {
+    font-size: larger;
+}
+.form-addDog{
+   
+    margin:auto;
+    max-width: 90%;
+    padding: 2rem;
+    background-image: url("../../img/Negrita.jpeg");
+    opacity: 0.7;
+    
+}
+.form-addDog span{
+    
+    display: block;
+    text-align: left;
+}
+.form-addDog input {
+    display:block;
+    padding: 0.5rem;  
+  
+   
+}
+input::-webkit-input-placeholder {
+    color:    rgba(73, 68, 68, 0.2);
+    font-weight: bold;
+}
+
+.form-addDog label{
+    display: flex;
+    justify-content: flex-end;
+    
+    width: 30%;
+    background-color: rgb(220, 245, 242);
+   
+    margin: 5px;
+
+}
+.input-checkbox{
+    margin:10px;
+    padding:10px;
+    width:50px
+}
+
+.temperamentos{
+    display:flex;
+    
+
+}
+.btn-form{
+   
+    position:fixed;
+    top: 150px;
+    right: 300px;
+
+    padding: 2rem;
+    border-radius: 10px;
+
+}

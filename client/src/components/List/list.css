@@ -1,0 +1,20 @@
+
+
+.Cards {
+    display: flex;
+    justify-content: space-around;
+    margin:auto;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+         
+}
+    @media (max-width: 700px) {
+     
+        .Cards {
+        display: flex !important;
+        justify-content: space-around;
+       
+      }
+  
+    }

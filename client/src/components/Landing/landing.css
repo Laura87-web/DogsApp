@@ -1,0 +1,53 @@
+
+* {
+    box-sizing: border-box;
+  }
+.fondo {
+    background-image: url("../../img/Landing-stext.png");   
+    background-size: cover;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+.title-landing{
+    font-family: 'Roboto';
+    font-size: 6rem;
+    margin: 0;
+   
+   
+}
+.button-landing {
+
+background-color: rgba(255, 218, 11, 0.917);
+border: 3px solid black;
+font-family: "roboto";
+padding: 6px 30px;
+font-size: 1.5rem;
+cursor: pointer;
+border-radius: 15px;
+box-shadow: 6px 6px rgb(189, 141, 11);
+margin-top: 3rem;
+   
+    
+}
+.button-landing:hover{
+    background-color: rgba(248, 196, 25, 0.993);
+}
+.button-landing:active {
+    background-color: rgba(255, 198, 11, 0.917);
+    box-shadow: 3px 3px rgb(189, 141, 11);
+    transform: translateY(4px);
+  }
+
+.left{
+   
+    width:352px;   
+    padding: 2rem;
+    margin-left: 3rem;
+}
+p{
+    margin-top: 6rem;
+  font-size: 24px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}

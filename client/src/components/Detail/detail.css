@@ -1,0 +1,28 @@
+.Detail {
+   
+    background: linear-gradient(to right,#85c9f6,#7b8bce );
+    border-radius: 20px;
+    padding: 15px;
+    margin: auto;
+    margin-bottom:15px;
+    align-items: center;
+    box-shadow: 2px 2px 20px  #b2b6da;
+    display:flex;
+    
+
+    
+   
+  }
+  .img-detail img {
+    width:60rem;
+    height: 50rem;
+    object-fit: cover;
+    border-radius: 25px;
+    width: 100%;
+   
+  }
+  .descripcion {
+    
+    align-content: space-between;
+  
+  }
